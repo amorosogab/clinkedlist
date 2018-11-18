@@ -1,0 +1,6 @@
+06/05/2017: (v4) aggiunte le funzioni ll_insert_node e get_node_list;
+10/05/2017: (v4) aggiunte le funzioni ll_delete_node_object, ll_delete_node_list, search_node_list, search_object,
+			ll_destroy, search_in_list, cmp_object, cmp_node_list per permettere l'emininazione di un nodo qualsiasi
+			della lista e poi l'ho testato con valgrind e non è stato rilevato nessun memory leak;
+13/05/2017: (v4) modificata la funzione ll_destroy per permettere di prendere in input anche la funzione di distruzione
+			dell'oggetto;
